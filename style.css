@@ -49,7 +49,7 @@ body {
     width: 573px;
     box-sizing: border-box;
     border-radius: 40px;
-    background: #FFF;
+    background: #6db5dc;
     padding-top: 60px;
     padding-bottom: 60px;
     padding-left: 60px;
@@ -63,6 +63,7 @@ body {
     padding-bottom: 100px;
     text-align: center;
     box-sizing: border-box;
+    background: #6db5dc;
 }
 
 .city-gallery_title {
@@ -88,6 +89,12 @@ body {
     cursor: pointer;
     border-radius: 48px;
     padding: 0;
+    transform: scale(1);
+    
+}
+
+.gallery-btn:hover{
+    transform: scale(1.1);
 }
 
 .gallery-img {
